@@ -1,5 +1,11 @@
 {
     "require": {
-        "silex/silex": "1.*"
+        "silex/silex": "1.*",
+        "guzzle/guzzle": "~3.7"
+    },
+    "autoload": {
+      "psr-0": {
+        "CachePurgeWarm": "src"
+      }
     }
 }
